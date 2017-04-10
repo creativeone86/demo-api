@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgresDS": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgres:auxionize@localhost/test_api",
+    "database": "test_api",
+    "password": "auxionize",
+    "name": "postgresDS",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
