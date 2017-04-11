@@ -1,21 +1,21 @@
 {
-  "name": "CoffeeShop",
+  "name": "DemoObject",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "stringAttr": {
       "type": "string",
       "required": true
     },
-    "city": {
-      "type": "string",
-      "required": true
-    },
-    "capacity": {
+    "numberAttr": {
       "type": "number",
+      "required": true
+    },
+    "booleanAttr": {
+      "type": "boolean",
       "required": true
     }
   },
